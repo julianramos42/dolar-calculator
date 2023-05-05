@@ -62,7 +62,7 @@ function App() {
   return (
     <div className='main'>
       <section className='calculadora'>
-        <h1>Convertir Pesos a Dolares</h1>
+        <h1>Convertir Pesos a Dólares</h1>
         <div className='container'>
           <div className='info-plata'>
             <div className='moneda'>
@@ -72,11 +72,11 @@ function App() {
             <i className="fa-sharp fa-solid fa-arrow-down"></i>
             <div className='moneda'>
               <img src={usa} alt='billete dolar' />
-              <p>${oficial} Dolar Oficial</p>
+              <p>${oficial} Dólar Oficial</p>
             </div>
             <div className='moneda'>
               <img src={usa} alt='billete dolar' />
-              <p>${blue} Dolar Blue</p>
+              <p>${blue} Dólar Blue</p>
             </div>
           </div>
           <form onSubmit={convertirPesosADolares}>
@@ -86,11 +86,11 @@ function App() {
             </fieldset>
             <fieldset>
               <label htmlFor='ofi'><img src={usa} alt='billete dolar' /></label>
-              <input type='number' name='ofi' id='ofi' placeholder={'Dolar Oficial: $' + oficialConvertido} ref={dolarOficial} onChange={convertirOficialAPesos} />
+              <input type='number' name='ofi' id='ofi' placeholder={'Dólar Oficial: $' + oficialConvertido} ref={dolarOficial} onChange={convertirOficialAPesos} />
             </fieldset>
             <fieldset>
               <label htmlFor='blue'><img src={usa} alt='billete dolar' /></label>
-              <input type='number' name='blue' id='blue' placeholder={'Dolar Blue: $' + blueConvertido} ref={dolarBlue} onChange={convertirBlueAPesos} />
+              <input type='number' name='blue' id='blue' placeholder={'Dólar Blue: $' + blueConvertido} ref={dolarBlue} onChange={convertirBlueAPesos} />
             </fieldset>
           </form>
         </div>
