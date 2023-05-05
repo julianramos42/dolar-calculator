@@ -67,7 +67,7 @@ function App() {
           <div className='info-plata'>
             <div className='moneda'>
               <img src={arg} alt='billete argentino' />
-              <p>$1 Peso Argentino</p>
+              <p>Precio Peso Argentino</p>
             </div>
             <i className="fa-sharp fa-solid fa-arrow-down"></i>
             <div className='moneda'>
