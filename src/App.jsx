@@ -67,16 +67,16 @@ function App() {
           <div className='info-plata'>
             <div className='moneda'>
               <img src={arg} alt='billete argentino' />
-              <p>Precio Peso Argentino</p>
+              <p>Precio Actualizado</p>
             </div>
             <i className="fa-sharp fa-solid fa-arrow-down"></i>
             <div className='moneda'>
               <img src={usa} alt='billete dolar' />
-              <p>${oficial} Dólar Oficial</p>
+              <p>Dólar Oficial: ${oficial}</p>
             </div>
             <div className='moneda'>
               <img src={usa} alt='billete dolar' />
-              <p>${blue} Dólar Blue</p>
+              <p>Dólar Blue: ${blue}</p>
             </div>
           </div>
           <form onSubmit={convertirPesosADolares}>
